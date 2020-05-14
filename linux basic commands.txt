@@ -1,0 +1,47 @@
+﻿mv <directory name to move>/ <another directory name>/
+
+cd (to change directory)
+
+whoami (to know user in a system)
+
+chmod +x (to give excutable permission to a file)
+
+cat (to check the content of a file)
+
+grep (cat wordlist | grep password) to search for a specific thing in a file
+
+echo (echo john > wordlist.txt) to over write a file
+
+history ( to check your bash history)
+
+cp ([file name] [directory]) (cp file.txt files) to copy a file
+
+mv ([file name] [directory]) (mv file.txt files) to move a file in another directory
+
+mv ([file name] [new name]) (mv file.txt files.txt) to rename a file
+
+man (to know a manual of a program) [man cat]
+
+locate [locate rockyou.txt] to locate any file in the system
+
+shutdown (to shutdown a system in 1 minute)
+
+reboot (to reboot a system)
+
+top (to see all the running processes on your machine at present)
+
+uname -a ( to see info about your system)
+
+ps (to see the processes runnig on your system)
+
+ifconfig (to view your network info)
+
+netstat -nr (to show the ip address of a gateway)
+
+netstat -ntp (to check the tcp connection on your system)
+
+exit (to close the open terminal on your system)
+
+adduser [adduser john] to add new user in your system
+
+usermod -aG sudo [usermode -aG sudo john] to enable root commands on a specific account

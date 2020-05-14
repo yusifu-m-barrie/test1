@@ -1,0 +1,9 @@
+nmap -p <port> --script ssh-brute --script-args userdb=<username wordlist>,passdb=<pass wordlist> <ip address>
+
+nmap --script=<script name> <ip address>
+
+nmap --script <script name>,<script name> -sV <ip address>
+
+git clone https://github.com/scipag/vulscan.git
+
+git clone https://github.com/vulnersCom/nmap-vulners.git

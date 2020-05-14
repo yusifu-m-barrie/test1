@@ -1,0 +1,19 @@
+google hacking database
+
+nikto
+
+theHaverster (/usr/share/golismero/tools/theHarvester)
+
+whois
+
+nmap ([nmap -sA <ip address>] [nmap -g <port> <ip address>] [nmap --data-lenth <ip address>] [nmap --spoof-mac <mac> <ip address>])
+
+shodan
+
+dig
+
+dnsenum
+
+nslookup
+
+curl [ipinfo.io/<ip address>]

@@ -1,0 +1,8 @@
+﻿instashell (to hack instagram)
+git clone https://github.com/thelinuxchoice/instashell.git
+
+tilix
+apt install tilix
+
+tor browser
+apt install tor
